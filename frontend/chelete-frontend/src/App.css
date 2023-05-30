@@ -1,0 +1,237 @@
+.app {
+margin-left: 1px;
+justify-content: center;
+ padding: 0;
+ margin: 1%;
+ box-sizing: border-box;
+ list-style: none;
+ font-family: 'Poppins' sans-serif;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center
+  
+}
+.body{
+  width:80%;
+  margin-left:  21%;
+  margin-right: auto;
+  margin-top:5% ;
+  text-align: center;
+ 
+   
+}
+/*  navbar */
+.menu{
+  text-align: justify;
+  width: 20%;
+  height: 100%;
+  background-color: #7C96AB;
+  position: fixed;
+
+
+}
+.logo{
+  font-family: cursive;
+  padding: 30px;
+  color: aliceblue;
+  letter-spacing: 2px;
+  background-color: #3C486B;
+
+}
+ .menu a{
+
+  text-decoration: none;
+  color: aliceblue ;
+  font-size: 15px;
+  letter-spacing: 2px;
+  display: block;
+  padding: 25px;
+  border-top: 1px solid #3C486B;
+  border-bottom: 1px solid #3C486B;
+
+}
+
+.menu a:hover{
+  color: #000;
+  background-color:#515c7c;
+  transition: 0.5s;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+} 
+
+.navbar_icon{
+  font-size: 30px
+}
+
+/* login */
+.login{
+  border: 1px solid gray;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.login h3{
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid hsl(0, 0%, 67%);
+  
+}
+
+.login input{
+  display: block;
+  padding: 20px;
+}
+.login input:hover{
+  color: #000;
+}
+.login input[type=submit]{
+padding: 10px;
+margin-left: 250px;
+text-align: center;
+
+}
+
+/* HOME PAGE */
+.home_container{
+  width:80%;
+  opacity: 0.9;
+  margin-left: 20%;
+  margin-right: auto;
+  text-align: center;
+  background-image: linear-gradient(#3C486B,rgba(0, 0, 0, 0.75)),url('component/chelete11.jpg');
+  background-position: center;
+   background-size: cover;
+   
+ 
+}
+.contenu{
+  width: 100%;
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  text-align: center;
+  color: #fff;
+}
+.contenu h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.contenu h2{
+  margin: 30px auto;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+
+/* DATA TABLE*/
+
+.mytable{
+  padding: 20px;
+  margin: 2%;
+  border: 1px solid hsl(0, 0%, 67%)
+}
+.mytable input{
+  text-align: center;
+}
+.imprimer_btn{
+  position: absolute;
+  right: 2%;
+  top:3%;
+  padding: 8px;
+  border-radius: 8px ;
+  background-color: #7C96AB;
+  background-color: #3C486B;
+  color: #fff;
+}
+
+.search_barre{
+  padding: 10px;
+  margin: 2%;
+  margin-top: 4%;
+  border: 1px solid hsl(0, 0%, 67%)
+}
+.search_barre input{
+  height: 100%;
+  width: 90%;
+  padding: 9px;
+  margin-left: 0%;
+  font-size: 18px;
+  font-size: 20px;
+  border-radius: 8px ;
+}
+.search_icon{
+  position: absolute;
+  right: 5%;
+  top:17.2%;
+  width: 4%;
+  color: #fff;
+  font-size: 22px;
+  padding: 5.5px;
+  border-radius: 8px ;
+  background-color: #3C486B;
+}
+.titre{
+  position: absolute;
+  left: 23%;
+  top:3%;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 2px ;
+  border-bottom: 2px solid #3C486B;
+ color: #3C486B;
+  
+}
+.search_barreF{
+  padding: 10px;
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  border: 1px solid hsl(0, 0%, 67%)
+}
+.search_barreF input{
+  height: 100%;
+  width: 40%;
+  padding: 9px;
+  margin-left: 0%;
+  font-size: 18px;
+  border-radius: 8px ;
+}
+.add_btn{
+  position: absolute;
+  right: 2%;
+  top:3%;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  color: #3C486B;
+  font-size: 18px;
+}
+.search_icon1{
+  position: absolute;
+  left: 23.5%;
+  top:17.2%;
+  width: 4%;
+  color: #fff;
+  font-size: 22px;
+  padding: 5.5px;
+  border-radius: 8px ;
+  background-color: #3C486B;
+}
+#left-box{
+  position: relative;
+  left: 6%;
+}
+#right-box{
+ position: relative;
+  top: 20%;
+  right: 9.5%;
+}
